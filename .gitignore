@@ -1,0 +1,24 @@
+# possible residuals of magic_dl3 / MARS running
+*.root
+*.png
+*.rc
+
+# Compiled files
+*.py[cod]
+*.a
+*.o
+*.so
+__pycache__
+
+# Ignore .c files by default to avoid including generated code. If you want to
+# add a non-generated .c extension, use `git add -f filename.c`.
+*.c
+
+# Mac OSX
+.DS_Store
+
+.vscode
+.idea
+
+# jupyter notebooks
+*.ipynb_checkpoints
