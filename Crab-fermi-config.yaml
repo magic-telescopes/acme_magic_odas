@@ -1,0 +1,37 @@
+data:
+  evfile: ./data/event_files.txt
+  scfile: ./data/L25090704032937E07FAA82_SC00.fits
+fileio:
+  outdir: ./fermi-Crab-analysis
+  logfile: ./fermi-Crab-analysis/analysis.log
+binning:
+  roiwidth: 5.0
+  binsz: 0.02
+  binsperdec: 5
+selection:
+  emin: 5000
+  emax: 2000000
+  zmax: 105
+  evclass: 128
+  evtype: 3
+  tmin: 239587200.0
+  tmax: 776044800.0
+  filter: DATA_QUAL>0 && LAT_CONFIG==1
+  ra: 83.6324
+  dec: 22.0174
+gtlike:
+  edisp: 0
+  irfs: P8R3_SOURCE_V3
+  edisp_disable:
+  - isodiff
+optimizer:
+  tol: 0.01
+  optimizer: MINUIT
+model:
+  src_roiwidth: 6
+  galdiff: ./fermi-Crab-analysis/gll_iem_v07_Crab_cutout.fits
+  isodiff: ./fermi-Crab-analysis/iso_P8R3_SOURCE_V3_v1.txt
+  catalogs:
+  - 4FGL-DR4
+sed:
+  ul_ts_threshold: 1
