@@ -22,7 +22,7 @@ If you are not familiar with Gamma-ray astronomy, you can find an [introductory 
 
 ## Software Requirements
 The only software required to successfully participate in the school is [Gammapy](https://gammapy.org/).   
-Check the installation instructions [here](https://docs.gammapy.org/1.3/getting-started/index.html#installation) and follow through this whole [section](https://docs.gammapy.org/1.3/getting-started/index.html#recommended-setup) to download the tutorial datasets and set some variables. 
+Check the installation instructions [here](https://docs.gammapy.org/2.0/getting-started/index.html#installation) and follow through this whole [section](https://docs.gammapy.org/2.0/getting-started/index.html#recommended-setup) to download the tutorial datasets and set some variables. 
 These are needed by some notebooks in the school to work properly.   
 
 ## Material for the school
@@ -32,7 +32,7 @@ Clone this git repository to your own machine, e.g.:
 ```bash
 git clone https://github.com/magic-telescopes/acme_magic_odas.git
 ```
-To run the notebooks, remember to select a kernel with the `gammapy-1.3` environment.
+To run the notebooks, remember to select a kernel with the `gammapy-2.0` environment.
 
 ### Gammapy-data
 You'll need `gammapy-datas` to run the notebooks. You can also download them via git:
