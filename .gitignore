@@ -3,6 +3,9 @@
 *.png
 *.rc
 
+# results
+results/
+
 # Compiled files
 *.py[cod]
 *.a
